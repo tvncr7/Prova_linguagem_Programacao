@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/comportamentos.js">  
+  </head>
+<body>
+    <main>
+        <h1>Net Book - Encontre o Livro que procura:</h1>
+        <form>            
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Buscar livro">
+                <button class="btn btn-success" type="submit">Buscar</button>                
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Escolha por gênero:</label>
+              <select class="custom-select custom-select-lg mb-3">                
+                <option selected>Escolher...</option>
+                <option>Terror</option>
+                <option>Romance</option>
+                <option>Aventura</option>
+                <option>Filosofia</option>
+                <option>Finanças</option>
+              </select>              
+              
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Veja nossa lista de livros disponíveis:</label>
+              <select id="mySelect" multiple class="custom-select custom-select-lg mb-3">              
+                <option value="1">Ilíada, de Homero</option>
+                <option value="2">A culpa é das estrelas.</option>
+                <option value="3">Hamlet, de Willian Shakespeare</option>
+                <option value="4">Frankenstein</option>
+                <option value="5">Crime e Castigo, de Fiódor Dostoiévski</option>
+                <option value="6">O Hobbit</option>
+                <option value="7">P.S Eu te amo</option>
+                <option value="8">O Homem mais rico da Babilônia</option>
+                <option value="9">O cemitério</option>
+                <option value="10">Pai Rico, Pai Pobre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Deixe aqui sua sugestão de livro</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+          <button class="btn-search" type="submit">Enviar</button>
+          <button class="btn-cancel" type="reset">Cancelar</button>
+    </main>
+
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
